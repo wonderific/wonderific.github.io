@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 20px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1aa6d9;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+p {
+  color: #999999;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: large;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#talkButton {
+    background-color: #1aa6d9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#talkButton:hover {
+    background-color: #1482b4;
+}
+
+#welcomeText {
+    font-size: smaller;
+    color: #999999;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+#missionStatement {
+    background-color: #1aa6d9;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#missionStatement p {
+    color: inherit;
+}
